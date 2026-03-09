@@ -255,6 +255,19 @@
 												Apply Now
 											</a>
 										</li>
+										<li class="theme-toggle-item">
+											<div class="theme-toggle">
+												<input type="checkbox" id="theme-toggle" class="theme-toggle__input" aria-label="Switch to dark mode">
+												<label class="theme-toggle__track" for="theme-toggle" title="Toggle dark mode">
+													<span class="theme-toggle__icon theme-toggle__icon--sun" aria-hidden="true">
+														<i class="ri-sun-line"></i>
+													</span>
+													<span class="theme-toggle__icon theme-toggle__icon--moon" aria-hidden="true">
+														<i class="ri-moon-line"></i>
+													</span>
+												</label>
+											</div>
+										</li>
 										<!-- <li>
 											<button type="button" class="search-btn" data-bs-toggle="modal" data-bs-target="#exampleModalsrc">
 												<i class="ri-search-line"></i>

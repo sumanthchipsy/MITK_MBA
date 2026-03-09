@@ -348,4 +348,37 @@
 		bigimage.data("owl.carousel").to(number, 300, true);
 	});
 
+	// Theme Toggle
+	var themeToggle = document.getElementById('theme-toggle');
+	if (themeToggle) {
+		var storageKey = 'theme-preference';
+
+		var applyTheme = function(isDark) {
+			document.body.classList.toggle('theme-dark', isDark);
+			themeToggle.checked = isDark;
+			themeToggle.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+		};
+
+		var storedPreference = null;
+		try {
+			storedPreference = localStorage.getItem(storageKey);
+		} catch (e) {
+			storedPreference = null;
+		}
+
+		var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+		var isDark = storedPreference ? storedPreference === 'dark' : prefersDark;
+		applyTheme(isDark);
+
+		themeToggle.addEventListener('change', function() {
+			var useDark = themeToggle.checked;
+			applyTheme(useDark);
+			try {
+				localStorage.setItem(storageKey, useDark ? 'dark' : 'light');
+			} catch (e) {
+				// Ignore storage errors (private mode, etc.)
+			}
+		});
+	}
+
 })(jQuery);
