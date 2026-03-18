@@ -309,6 +309,16 @@
 		
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script>
+			(function() {
+				try {
+					var storedTheme = localStorage.getItem('mitk-theme');
+					if (storedTheme === 'dark') {
+						document.documentElement.setAttribute('data-theme', 'dark');
+					}
+				} catch (e) {}
+			})();
+		</script>
 		<!-- Bootstrap Min CSS --> 
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<!-- Owl Theme Default Min CSS --> 
@@ -333,6 +343,8 @@
 		<link rel="stylesheet" href="assets/css/style.css">
 		<!-- Responsive CSS -->
 		<link rel="stylesheet" href="assets/css/responsive.css">
+		<!-- Dark Mode CSS -->
+		<link rel="stylesheet" href="assets/css/dark-mode.css">
 		
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="assets/images/MIT-Kundapura-Icon.png">

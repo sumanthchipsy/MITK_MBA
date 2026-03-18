@@ -66,10 +66,16 @@
 
 							<div class="others-options-for-mobile-devices">
 								<ul>
-									<li>
+									<li class="apply-now-item">
 										<a href="#" class="default-btn">
 											Apply Now
 										</a>
+									</li>
+									<li class="theme-toggle-item">
+										<button type="button" class="theme-toggle-btn" data-theme-toggle aria-label="Switch to dark mode" title="Switch to dark mode">
+											<i class="ri-moon-line theme-icon theme-icon-moon"></i>
+											<i class="ri-sun-line theme-icon theme-icon-sun"></i>
+										</button>
 									</li>
 									<!-- <li>
 										<button type="button" class="search-btn" data-bs-toggle="modal" data-bs-target="#exampleModalsrc">
@@ -256,10 +262,16 @@
 
                                 <div class="others-options">
 									<ul>
-										<li>
+										<li class="apply-now-item">
 											<a href="admission-enquiry.php" class="default-btn">
 												Apply Now
 											</a>
+										</li>
+										<li class="theme-toggle-item">
+											<button type="button" class="theme-toggle-btn" data-theme-toggle aria-label="Switch to dark mode" title="Switch to dark mode">
+												<i class="ri-moon-line theme-icon theme-icon-moon"></i>
+												<i class="ri-sun-line theme-icon theme-icon-sun"></i>
+											</button>
 										</li>
 										<!-- <li>
 											<button type="button" class="search-btn" data-bs-toggle="modal" data-bs-target="#exampleModalsrc">
