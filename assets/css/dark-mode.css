@@ -313,6 +313,60 @@ html[data-theme="dark"] .table thead th {
   color: var(--heading-color);
 }
 
+@media only screen and (max-width: 991px) {
+  html[data-theme="dark"] .navbar-area {
+    background-color: var(--dark-surface) !important;
+  }
+
+  html[data-theme="dark"] .mobile-responsive-nav .mobile-responsive-menu {
+    background-color: var(--dark-surface);
+  }
+
+  html[data-theme="dark"] .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav {
+    background-color: var(--dark-surface) !important;
+    border-top: 1px solid var(--dark-border);
+  }
+
+  html[data-theme="dark"] .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul,
+  html[data-theme="dark"] .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li {
+    background-color: var(--dark-surface);
+  }
+
+  html[data-theme="dark"] .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li a {
+    color: #e2e8f0;
+    border-top-color: var(--dark-border);
+  }
+
+  html[data-theme="dark"] .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul li a.mean-expand {
+    background: rgba(255, 255, 255, 0.04) !important;
+    border-left: 1px solid var(--dark-border) !important;
+  }
+
+  html[data-theme="dark"] .mobile-responsive-nav .mean-container .mean-bar {
+    background: var(--dark-surface);
+  }
+
+  html[data-theme="dark"] .mobile-responsive-nav .mean-container a.meanmenu-reveal {
+    color: #e2e8f0;
+  }
+
+  html[data-theme="dark"] .mobile-responsive-nav .mean-container a.meanmenu-reveal span {
+    background: #e2e8f0;
+  }
+
+  html[data-theme="dark"] .mobile-responsive-nav .mobile-responsive-menu.mean-container .navbar-nav {
+    box-shadow: none;
+  }
+
+  html[data-theme="dark"] .mobile-responsive-nav .mobile-responsive-menu.mean-container .navbar-nav::-webkit-scrollbar-track {
+    background: var(--dark-surface-2);
+  }
+
+  html[data-theme="dark"] .mobile-responsive-nav .mobile-responsive-menu.mean-container .navbar-nav::-webkit-scrollbar-thumb {
+    background: #334155;
+  }
+}
+
 html[data-theme="dark"] table,
 html[data-theme="dark"] table th,
 html[data-theme="dark"] table td {
