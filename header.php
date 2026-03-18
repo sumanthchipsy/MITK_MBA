@@ -137,7 +137,7 @@
 										<a href="faculty.php" class="nav-link">Faculty</a>
 									</li>
 
-									<li class="nav-item">
+									<li class="nav-item hide-all">
 										<a href="#" class="nav-link">
 											What’s New 
 											<i class="ri-arrow-down-s-line"></i>
@@ -226,6 +226,12 @@
 											</li>
 											<li class="nav-item">
 												<a href="other-events.php" class="nav-link">Other Events</a>
+											</li>
+											<li class="nav-item">
+												<a href="gallery.php" class="nav-link">Photo Gallery</a>
+											</li>
+											<li class="nav-item">
+												<a href="#" class="nav-link">YUVA</a>
 											</li>
 											<li class="nav-item hide-all">
 												<a href="lets-go-quizzin.php" class="nav-link">Let’s go quizzin</a>
