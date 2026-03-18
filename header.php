@@ -59,7 +59,7 @@
                     <div class="container">
                         <div class="mobile-responsive-menu">
                             <div class="logo">
-                                <a href="https://mba.mitkundapura.com/">
+                                <a href="index.php">
 									<img src="assets/images/MITK-Logo.jpg" alt="MIT Kundapura Logo">
 								</a>
                             </div>
@@ -85,7 +85,7 @@
                 <div class="desktop-nav">
                     <div class="container">
                         <nav class="navbar navbar-expand-md navbar-light">
-                            <a class="navbar-brand" href="https://mba.mitkundapura.com/">
+                            <a class="navbar-brand" href="index.php">
                                 <img src="assets/images/MITK-Logo.jpg" alt="MIT Kundapura Logo">
                             </a>
 
